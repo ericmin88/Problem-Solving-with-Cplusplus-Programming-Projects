@@ -20,8 +20,8 @@ main(){
 	monthly = newAnnualSalary / 12;
 
 	cout.setf(ios::fixed);
-    cout.setf(ios::showpoint);
-    cout.precision(2);
+        cout.setf(ios::showpoint);
+        cout.precision(2);
 	cout << "\n";
 	cout << "The retroactive salary for six months is: $" << retroActiveSixMonth <<"\n";
 	cout << "The new annual salary is: $" << newAnnualSalary << "\n";
