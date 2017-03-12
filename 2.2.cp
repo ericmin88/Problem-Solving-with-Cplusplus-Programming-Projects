@@ -15,15 +15,15 @@ main(){
 	cin >> previousAnnualSalary;
 
 	sixMonth = (previousAnnualSalary / 2);
-	retroActiveSixMonth = sixMonth + (sixMonth * increase);
-	newAnnualSalary = sixMonth + retroActiveSixMonth;
+	retroActiveSixMonth = sixMonth * increase;
+	newAnnualSalary = previousAnnualSalary + retroActiveSixMonth;
 	monthly = newAnnualSalary / 12;
 
 	cout.setf(ios::fixed);
         cout.setf(ios::showpoint);
         cout.precision(2);
 	cout << "\n";
-	cout << "The retroactive salary for six months is: $" << retroActiveSixMonth <<"\n";
+	cout << "The retroactive pay is: $" << retroActiveSixMonth <<"\n";
 	cout << "The new annual salary is: $" << newAnnualSalary << "\n";
 	cout << "The new monthly pay is: $" << monthly << "\n";
 	cout << "\n";
