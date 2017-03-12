@@ -26,8 +26,8 @@ main(){
 
 	cout << "\n";
 	cout.setf(ios::fixed);
-    cout.setf(ios::showpoint);
-    cout.precision(2);
+        cout.setf(ios::showpoint);
+        cout.precision(2);
 	cout << "The retroactive pay is: $" << retroPay << "\n";
 	cout << "The new annual pay is: $" << newAnnualPay << "\n";
 	cout << "The new monthly pay is: $" << newMonthly << "\n";
