@@ -9,7 +9,7 @@ int main(){
 	char repeat;
 
 
-	cout << "PAYCHECK WITHHOLDINGS\n";
+	cout << "INFLATION\n";
 	cout << "\n";
 	do{
 		cout << "What is the price of the item now? (in dollars) \n";
@@ -42,4 +42,3 @@ int main(){
 
 	return 0;
 }
-
