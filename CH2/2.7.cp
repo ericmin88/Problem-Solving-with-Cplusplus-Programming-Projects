@@ -26,8 +26,8 @@ int main(){
 		}
 
 		cout.setf(ios::fixed);
-    	cout.setf(ios::showpoint);
-    	cout.precision(2);
+    	        cout.setf(ios::showpoint);
+    	        cout.precision(2);
 		if(years == 1){
 			cout << "After" << years << " year the price of the item will be $" << PriceOfItem << "\n";
 		}
